@@ -1,0 +1,16 @@
+PODS:
+  - LDSDBHelper (0.1.0)
+
+DEPENDENCIES:
+  - LDSDBHelper (from `../`)
+
+EXTERNAL SOURCES:
+  LDSDBHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDSDBHelper: dd0284a406c5bed4d54876bb3363498ac0be8273
+
+PODFILE CHECKSUM: 44beab2abc27a3241159eb089471fdf70e8f5842
+
+COCOAPODS: 1.9.1

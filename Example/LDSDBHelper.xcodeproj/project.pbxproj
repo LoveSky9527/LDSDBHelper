@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D3A0EA7A1F18C58CD169D26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D3A0EA7A1F18C58CD169D26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CD1872CB5AFC9399E2482FB /* Pods-LDSDBHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDSDBHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LDSDBHelper_Tests/Pods-LDSDBHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5322164E62CE23CDC0E07247 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5322164E62CE23CDC0E07247 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66F7DE8AE78FD4C27BF403EB /* Pods_LDSDBHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDSDBHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC724B6EB2255626F085279 /* Pods-LDSDBHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDSDBHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-LDSDBHelper_Tests/Pods-LDSDBHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D1E21D4E71864F85BEB3CA96 /* LDSDBHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LDSDBHelper.podspec; path = ../LDSDBHelper.podspec; sourceTree = "<group>"; };
+		D1E21D4E71864F85BEB3CA96 /* LDSDBHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDSDBHelper.podspec; path = ../LDSDBHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				3CD1872CB5AFC9399E2482FB /* Pods-LDSDBHelper_Tests.debug.xcconfig */,
 				CEC724B6EB2255626F085279 /* Pods-LDSDBHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

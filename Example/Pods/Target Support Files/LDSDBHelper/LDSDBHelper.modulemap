@@ -1,0 +1,6 @@
+framework module LDSDBHelper {
+  umbrella header "LDSDBHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
