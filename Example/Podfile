@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LDSDBHelper_Tests' do
+  pod 'LDSDBHelper', :path => '../'
+  
+  
+end
